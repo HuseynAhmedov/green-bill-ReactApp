@@ -1,0 +1,30 @@
+@import '/src/App.scss';
+.navbar-custom 
+{
+    background-color: $theme-color-dark;
+    .navbar-container
+    {
+        .navbar-brand
+        {
+            font-family: 'Lobster', cursive;
+            color: white;
+            font-size: 36px;
+        }
+        .navbar-brand:hover
+        {
+            color: white !important; 
+        }
+        .navbar-link
+        {
+            font-family: 'Poppins', sans-serif;
+            color: white !important;
+            font-size: 18px;
+            font-weight: 400;
+            transition: ease 0.3s;
+        }
+        .navbar-link:hover
+        {
+            transform: translateY(-0.3rem);
+        }
+    }
+}

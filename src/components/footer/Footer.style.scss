@@ -1,0 +1,30 @@
+@import '/src/App.scss';
+
+.footer-container
+{
+    font-family: 'Poppins', sans-serif;
+    footer 
+    {
+        ul 
+        {
+            border-bottom: 1px solid $theme-color-dark;
+            .nav-link
+            {
+                color: black;
+                font-size: 1rem;
+                text-decoration: none;
+                font-weight: 500;
+                transition: ease 0.2s;
+            }
+            .nav-link:hover 
+            {
+                color: $theme-color-dark;
+            }
+        }
+        .text-copyright
+        {
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+}
