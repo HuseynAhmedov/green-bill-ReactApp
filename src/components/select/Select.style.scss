@@ -1,0 +1,6 @@
+@import '/src/App.scss';
+.form-select:focus
+{
+    box-shadow: none;
+    border-color: $theme-color-dark;
+}

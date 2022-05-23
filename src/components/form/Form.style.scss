@@ -1,0 +1,93 @@
+@import '/src/App.scss';
+
+.form-container
+{
+    background-color: $base-color-light;
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .form-title-container
+    {
+        text-align: center;
+        padding-bottom: 3rem;
+        .form-title
+        {
+            font-size: 26px;
+        }
+    }
+    .form-input-container
+    {
+        padding-right: 1rem;
+        .form-control
+        {
+            margin-bottom: 0.5rem;
+        }
+        .form-control:focus
+        {
+            box-shadow: none;
+            border-color: $theme-color-dark;
+        }
+        .form-validation
+        {
+            color: rgb(179, 0, 33);
+            font-size: 14px;
+        }
+    }
+    .form-input-container:last-of-type
+    {
+        padding-right: 0rem;
+    }
+    .form-bottom-container
+    {
+        justify-content: space-between;
+        align-items: flex-end;
+        .convert-button-container
+        {
+            .btn
+            {
+                background-color: $theme-color-dark;
+                color: white;
+                transition: ease 0.3s;
+            }
+            .btn:hover
+            {
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                transform: translateY(-0.2rem);
+            }
+            .btn:focus
+            {
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            }
+        }
+    }
+    .convert-result-container
+    {
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 2rem;
+        .convert-amount
+        {
+            font-weight: 500;
+            font-size:16px;
+            padding-bottom: 0.5rem;
+        }
+        .convert-result
+        {
+            font-weight: 600;
+            font-size: 36px;
+            color: $theme-color-dark;
+            padding-bottom: 2rem;
+        }
+        .convert-information
+        {
+            font-weight: 500;
+            font-size:16px;
+            padding-bottom: 0.5rem;
+        }
+        .convert-information:last-of-type
+        {
+            padding-bottom: 0rem;
+        }
+    }
+}

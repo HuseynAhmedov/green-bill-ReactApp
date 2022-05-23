@@ -1,0 +1,32 @@
+@import '/src/App.scss';
+.chart-container
+{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    align-items: center;
+    .chart-information-container
+    {
+        margin-bottom: 1rem;
+    }
+    .chart-title-container
+    {
+        font-family: 'Poppins', sans-serif;
+        .chart-title
+        {
+            font-size: 36px;
+            font-weight: 500;
+            color: $theme-color-dark;
+        }
+    }
+    .chart-rate-container
+    {
+        text-align: right;
+        font-family: 'Open Sans', sans-serif;
+        .chart-rate
+        {
+            font-weight: 600;
+            margin-right: 1rem;
+        }
+    }
+}

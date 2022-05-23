@@ -56,3 +56,10 @@ $theme-color-dark : #39603D;
 {
 	background-color: $base-color-dark;
 }
+#formMain
+{
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	background: rgb(57,96,61);
+    background: linear-gradient(180deg, rgba(57,96,61,1) 20%, rgba(255,255,255,1) 100%);
+}
